@@ -7,10 +7,10 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
       margin: 0;
       padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
     }
     .container {
       max-width: 800px;
@@ -20,106 +20,108 @@
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    h1 {
-      color: #007bff;
-      margin-bottom: 20px;
-      text-align: center;
+    h1, h2, h3 {
+      color: #333;
     }
     h2 {
-      color: #333;
-      margin-top: 30px;
-    }
-    h3 {
-      color: #333;
-    }
-    p {
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
       margin-bottom: 10px;
     }
-    .contact {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .experience {
+    h3 {
       margin-top: 20px;
     }
-    .job-title {
-      color: #007bff;
+    p, ul {
+      font-size: 16px;
+      line-height: 1.5;
     }
-    .job-duration {
-      font-style: italic;
+    ul {
+      padding-left: 20px;
     }
-    .responsibilities {
-      margin-left: 20px;
+    .subtitle {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
     }
-    .skills {
+    .job-description {
       margin-top: 20px;
     }
-    .education {
+    .job-description p {
+      margin-top: 10px;
+    }
+    .company-description {
       margin-top: 20px;
     }
-    .footer {
-      margin-top: 30px;
-      text-align: center;
-      color: #777;
+    .company-description p {
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Kannan Velayudam</h1>
-    <h2>ITMLP Certified IT Manager | IT Infrastructure Management</h2>
-    <div class="contact">
+    <header>
+      <h1>Kannan Velayudam</h1>
+      <p class="subtitle">ITMLP Certified IT Manager | IT Infrastructure Management</p>
       <p>Email: kannanbgd@hotmail.com | Phone: +91-9686145224</p>
-    </div>
-    <h3>Career Summary</h3>
-    <p>An experienced and dynamic Global IT Service operations manager with over 18 years of IT managed services and ITSM practice. Proven expertise in IT infrastructure management, project delivery, and incident management. Skilled in aligning ITSM practices with comprehensive P&L management and driving sustainable process improvements using ITIL methodologies.</p>
+    </header>
     
-    <div class="experience">
+    <section class="job-description">
+      <h2>Profile Summary</h2>
+      <p>An accomplished IT manager with over 18 years of experience specializing in IT infrastructure management, incident handling, and IT service desk operations. Proven track record in leading global teams, implementing cost-effective IT solutions, and driving continuous improvement through ITIL methodologies. Strong communication and leadership skills with a focus on customer satisfaction.</p>
+      
       <h2>Work Experience</h2>
-      <div class="job">
-        <h3 class="job-title">Regional IT Manager–APAC</h3>
-        <p class="job-duration">Neovia Logistics LLC. (04/2014 - Present)</p>
-        <div class="responsibilities">
-          <p>• Lead a 5-person field IT team across APAC for ITSM, Service desk, and identity management.</p>
-          <p>• Managed incidents, problems, and changes within agreed SLAs, ensuring high customer satisfaction.</p>
-          <p>• Successfully customized and implemented hardware asset management process, achieving 30% savings on devices.</p>
-          <p>• Completed multiple IT infrastructure setup projects for new businesses, achieving cost savings and operational efficiency.</p>
-        </div>
-      </div>
-      <div class="job">
-        <h3 class="job-title">Team Lead - Bangalore</h3>
-        <p class="job-duration">NTT Data Global Delivery Services Pvt. Ltd. (12/2007 - 10/2013)</p>
-        <div class="responsibilities">
-          <p>• Spearheaded a team supporting all L1 and L2 IT tasks for a global service desk account.</p>
-          <p>• Conducted regular training sessions and quality monitoring to ensure high performance and customer satisfaction.</p>
-          <p>• Managed project activities, including cost optimization and new project proposals.</p>
-        </div>
-      </div>
-      <div class="job">
-        <h3 class="job-title">Quality Analyst</h3>
-        <p class="job-duration">Brigade Corporation India (P) Ltd. (01/2005 - 11/2007)</p>
-        <div class="responsibilities">
-          <p>• Led a team of 15 members supporting HP MediaVault NAS device, achieving excellent customer satisfaction.</p>
-          <p>• Conducted regular audits and surveys to identify trends and implement improvement initiatives.</p>
-          <p>• Prepared and delivered training sessions resulting in a 25% decrease in agent controllable issues.</p>
-        </div>
-      </div>
-    </div>
+      <h3>Regional IT Manager – APAC</h3>
+      <p><strong>Neovia Logistics LLC.</strong> | 04/2014 - Present</p>
+      <ul>
+        <li>Lead a global IT service desk and incident management team, ensuring 24/7 support for critical IT infrastructure.</li>
+        <li>Managed ITSM, service desk, and identity management responsibilities for a 3PL global logistics organization.</li>
+        <li>Successfully led large-scale IT infrastructure migration projects with minimal downtime and cost savings.</li>
+        <li>Implemented IT hardware asset management processes resulting in significant cost reductions.</li>
+        <li>Developed bespoke IT solutions tailored to regional requirements while ensuring compliance with global IT standards.</li>
+      </ul>
+      
+      <h3>Team Lead - Bangalore</h3>
+      <p><strong>NTT Data Global Delivery Services Pvt. Ltd.</strong> | 12/2007 - 10/2013</p>
+      <ul>
+        <li>Managed a team supporting LSI’s global service desk account, ensuring high-quality IT support for 6,000+ users.</li>
+        <li>Provided technical leadership and project management for IT initiatives, including installations, migrations, and upgrades.</li>
+        <li>Implemented process improvements resulting in increased efficiency and customer satisfaction.</li>
+        <li>Led training and development programs for team members to enhance technical skills and performance.</li>
+      </ul>
+
+      <h3>Quality Analyst</h3>
+      <p><strong>Brigade Corporation India (P) Ltd.</strong> | 01/2005 - 11/2007</p>
+      <ul>
+        <li>Managed a team supporting HP MediaVault NAS devices, ensuring compliance with customer-defined processes and high-quality customer service.</li>
+        <li>Performed regular audits and analysis to identify areas for improvement and implemented training programs accordingly.</li>
+        <li>Received awards for excellent customer satisfaction scores and exceptional performance from Hewlett Packard.</li>
+        <li>Successfully migrated to new cost-effective tools and technologies, improving operational efficiency and reducing costs.</li>
+      </ul>
+    </section>
     
-    <div class="skills">
-      <h2>Skills</h2>
-      <p>• IT Infrastructure Management • IT Project Management • Incident/Problem Management • Change Management • IT Service Management • Networking • Endpoint Security • Active Directory • Data Analysis</p>
-    </div>
+    <section class="skills-education">
+      <h2>Skills and Education</h2>
+      <h3>Skills</h3>
+      <ul>
+        <li>IT Infrastructure Management</li>
+        <li>IT Project Management</li>
+        <li>Incident/Problem Management</li>
+        <li>Change Management</li>
+        <li>IT Service Management (ITIL)</li>
+        <li>Networking, Endpoint Security, Active Directory</li>
+        <li>Data Analysis</li>
+        <li>Vendor and Contract Management</li>
+        <li>Leadership and Team Management</li>
+      </ul>
+      
+      <h3>Education</h3>
+      <p>Master of Philosophy in Economics - Pondicherry University, Pondicherry</p>
+      <p>Master’s Degree in Business Economics - Pondicherry University, Pondicherry</p>
+    </section>
     
-    <div class="education">
-      <h2>Education</h2>
-      <p>• Master of Philosophy in Economics, Pondicherry University, Pondicherry</p>
-      <p>• Master’s Degree in Business Economics, Pondicherry University, Pondicherry</p>
-    </div>
-    
-    <div class="footer">
-      <p>References available upon request</p>
-    </div>
+    <footer class="company-description">
+      <p><strong>[PUT YOUR COMPANY DESCRIPTION HERE]</strong></p>
+    </footer>
   </div>
 </body>
 </html>
